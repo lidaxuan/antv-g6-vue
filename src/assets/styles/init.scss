@@ -1,0 +1,112 @@
+//init 元素样式初始化
+//所有的元素默认使用border-box, 内边距和border将包含在元素的宽高里面
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+
+html,
+body {
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none; // -webkit-user-select: none;
+  // user-select: none;
+  word-wrap: break-word;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+menu,
+input,
+textarea,
+button,
+select,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+li.no-style {
+  list-style: none;
+}
+
+input,
+textarea,
+button,
+select {
+  outline: 0 none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+pre {
+  margin: 0;
+  font: 14px/1.4 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+  outline: 0 none;
+
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: $linkHoverColor;
+  }
+}
+
+//没有href属性的锚点继承父级的样式
+a:not([href]) {
+  color: inherit;
+}
+
+//定义基础的文字,大小,背景色
+html {
+  font-size: $rootFontSize;
+}
+
+body,
+body textarea {
+  // background: $bgColor;
+  font-size: $baseFontSize;
+  font-weight: $baseFontWeight;
+  font-family: $baseFontFamily;
+  color: $secondary;
+  margin: 0 auto;
+}
+

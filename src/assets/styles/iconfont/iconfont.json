@@ -1,0 +1,16 @@
+{
+  "id": "1656253",
+  "name": "jd-api-gateway",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4981140",
+      "name": "API网关",
+      "font_class": "api-gateway",
+      "unicode": "e9e9",
+      "unicode_decimal": 59881
+    }
+  ]
+}

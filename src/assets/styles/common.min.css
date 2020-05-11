@@ -1,0 +1,147 @@
+.common-header p {
+    line-height: 16px;
+    height: 16px;
+    padding-left: 10px;
+    border-left: 3px solid #0766FF
+}
+
+.none {
+    display: none
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: normal
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.ta-l {
+    text-align: left
+}
+
+.ta-c {
+    text-align: center
+}
+
+.ta-r {
+    text-align: right
+}
+
+.pr {
+    position: relative
+}
+
+.pr-2 {
+    position: relative;
+    z-index: 2
+}
+
+.pr-3 {
+    position: relative;
+    z-index: 3
+}
+
+.pr-4 {
+    position: relative;
+    z-index: 4
+}
+
+.pr-5 {
+    position: relative;
+    z-index: 5
+}
+
+.pct100 {
+    width: 100%
+}
+
+.h100 {
+    height: 100%
+}
+
+.font-pf {
+    font-family: "微软雅黑"
+}
+
+.font-pfb {
+    font-family: "微软雅黑"
+}
+
+.font-fz {
+    font-family: "微软雅黑"
+}
+
+.font-12 {
+    font-size: 12px
+}
+
+.flex {
+    display: flex
+}
+
+.flex-item {
+    flex: 1
+}
+
+.flex-row {
+    flex-direction: row
+}
+
+.flex-column {
+    flex-direction: column
+}
+
+.hidden {
+    overflow: hidden
+}
+
+.color_red {
+    color: red
+}
+
+.color_base {
+    color: #237AFF
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.disabled {
+    cursor: not-allowed !important
+}
+
+.disabled:hover {
+    color: #c0c4cc !important
+}
+
+.hide {
+    display: none
+}
+
+.content {
+    font-size: 12px;
+    color: #888
+}
+
+.title {
+    font-size: 18px;
+    color: #333
+}

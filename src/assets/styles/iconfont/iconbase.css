@@ -1,0 +1,15 @@
+/* 提出的样式-勿改 */
+@font-face {
+  font-family: "iconfont";
+  src: url('iconfont.eot?t=1582014357279');
+  /* IE9 */
+  src: url('iconfont.eot?t=1582014357279#iefix') format('embedded-opentype'),
+    url('iconfont.woff?t=1582014357279') format('woff'),
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

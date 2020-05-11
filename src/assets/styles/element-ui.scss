@@ -1,0 +1,8 @@
+// 此处存放各个产品线涉及element-ui的相关样式调整
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+
+body .el-table colgroup.gutter{
+  display: table-cell!important;
+}
